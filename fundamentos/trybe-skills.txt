@@ -1,5 +1,0 @@
-O que aprenderei no primeiro módulo:
-
--Unix
--Bash
--Git
