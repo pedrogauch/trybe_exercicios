@@ -4,4 +4,5 @@ O que aprenderei no primeiro módulo:
 -Bash
 -Git
 -Javascript
-
+-HTML
+-CSS
