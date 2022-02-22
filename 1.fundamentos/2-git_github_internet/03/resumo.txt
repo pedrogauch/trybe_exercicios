@@ -1,0 +1,35 @@
+%% Resumo do conteudo %%
+
+1. Cliente-Servidor: relação entre quem pede acesso (Cliente)
+e quem espera pelo pedido e fornece acesso a informacoes 
+(Servidor).
+
+2. IP (Internet Protocol): identificador numérico único para
+cada dispositivo conectado à rede. Define como os pacotes
+de dados serão enviados ao destinatário.
+
+3. TCP (Transmission Control Protocol): Define a interação
+de aplicações na rede, bem como a divisão em pacotes dos 
+dados a serem enviados.
+
+4. ISP (Internet Service Provider): provedor de Internet.
+
+5. DNS (Domain Name System): base de dados que gerencia 
+o que está conectado à rede. Usado para relacionar o 
+endereço nominal (e.g.: google.com) com seu respectivo 
+endereço numérico (IP).
+
+6. Port Number: número de 16 bits usado para identificar um
+processo específico enviado ao servidor.
+
+7. Host: Qualquer computador conectado à rede. O Servidor é
+um tipo de Host.
+
+8. HTTP (Hyper-text Transfer Protocol): protocolo utilizado
+entre navegadores e servidores.
+
+9. URL (Uniform Resource Locators): identifica o protocolo que 
+será usado para a comunicação com o servidor (https), nome do 
+host (google.com) e recurso que queremos acessar (travel/flights)
+https://www.google.com/travel/flights
+
