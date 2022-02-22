@@ -33,3 +33,23 @@ será usado para a comunicação com o servidor (https), nome do
 host (google.com) e recurso que queremos acessar (travel/flights)
 https://www.google.com/travel/flights
 
+10. HTML: linguagem que permite configurar a estrutura fisica
+da página web
+
+11. CSS: define a aparência e estilizacao da pagina
+
+12. Javascript: define as interacoes do usuario com a 
+pagina. Responsavel por conferir um comportamento dinamico
+a pagina.
+
+13. Banco de dados: estrutura responsavel por armazenar a 
+informação de forma acessivel, gerenciavel e em constante
+atualizacao.
+
+14. Balanceador de carga: termo generico para uma serie de
+algoritmos que distribuem as requisicoes para o servidor. 
+Exemplo: Round Robin e Least Connections.
+
+15. Servicos: capaz de interagir com servidores. Cada servico 
+tem uma funcionalidade especifica, por exemplo autenticacao de 
+usuarios.
