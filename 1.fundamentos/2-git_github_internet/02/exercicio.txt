@@ -1,1 +1,39 @@
-%% 
+%% Criar nova branch trybe-skills-changes e acessar %%
+
+git branch trybe-skills-changes
+git checkout trybe-skills-changes
+
+%% Adicionar o arquivo a stage zone e commit %%
+
+git add arquivo.txt
+git commit -m "mensagem de atualizacao"
+
+%% Upload do arquivo.txt %%
+
+git push -u origin trybe-skills-changes
+
+////-u indica o "caminho" que o arquivo deve seguir
+até o branch main no GitHub. Geralmente indicado 
+apenas na primeira vez para o branch. Depois,
+atualizar apenas com git push////
+
+%% Repetir processo com novo arquivo.txt %%
+
+%% Fazer merge através dos Pull Requests gerados aqui %%
+
+\\\\////\\\\////\\\\////\\\\////\\\\////\\\\////\\\\////
+1. Atencao para as mensagens que aparecem no terminal
+durante o processo;
+
+2. Alguns comandos de monitoramento
+git status
+git branch
+git fetch
+git log
+
+3. Desfazer alteracao de arquivo na staged area 
+git reset HEAD arquivo.ext
+
+4. Desfazer alteracao de arquivo nao adicionado
+git checkout -- arquivo.ext
+////\\\\////\\\\////\\\\////\\\\////\\\\////\\\\////\\\\
