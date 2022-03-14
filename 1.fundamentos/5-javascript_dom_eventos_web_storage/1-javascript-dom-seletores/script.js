@@ -17,3 +17,10 @@ function changeRedToWhite() {
     redToWhite.style.background = "white";
 }
 changeRedToWhite();
+
+// Exercicio 4
+function textCorrector() {
+    let title = document.getElementsByTagName('h1')[0];
+    title.innerHTML = "Exercício 5.1 - JavaScript";
+} 
+textCorrector();
