@@ -1,6 +1,6 @@
 // Exercicio 1
 function changeText() {
-    document.getElementsByTagName('p')[1].innerHTML = "VAI TOMAR NO CU ESSE CURSO DE BOSTA."
+    document.getElementsByTagName('p')[1].innerHTML = "HOJE PERDI 6 HORAS DO MEU DIA."
 }
 changeText();
 
@@ -31,3 +31,12 @@ function upperCase() {
     paragrafo.innerHTML = paragrafo.innerHTML.toUpperCase();
 }
 upperCase();
+
+Exercicio 6
+function showParagraphs() {
+    let paragraphs = document.getElementsByTagName('p');
+    for (i = 0; i < paragraphs.length; i += 1) {
+        console.log(paragraphs[i].innerHTML);
+    }
+}
+showParagraphs();
