@@ -10,3 +10,10 @@ function changeYellowToGreen() {
     yellowToGreen.style.background = "rgb(76,164,109)";
 }
 changeYellowToGreen();
+
+// Exercicio 3
+function changeRedToWhite() {
+    let redToWhite = document.getElementsByClassName('center-content')[0];
+    redToWhite.style.background = "white";
+}
+changeRedToWhite();
