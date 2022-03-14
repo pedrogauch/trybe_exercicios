@@ -24,3 +24,10 @@ function textCorrector() {
     title.innerHTML = "Exercício 5.1 - JavaScript";
 } 
 textCorrector();
+
+//Exercício 5
+function upperCase() {
+    let paragrafo = document.getElementsByTagName('p')[0];
+    paragrafo.innerHTML = paragrafo.innerHTML.toUpperCase();
+}
+upperCase();
